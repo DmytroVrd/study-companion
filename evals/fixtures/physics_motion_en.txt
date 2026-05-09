@@ -1,0 +1,11 @@
+Topic: Basic physics: motion
+
+Velocity describes how fast an object changes its position and in what direction. Speed is
+only the magnitude of motion, while velocity includes direction.
+
+Acceleration is the rate of change of velocity. If an object speeds up, slows down, or changes
+direction, it is accelerating.
+
+Newton's first law says that an object remains at rest or moves with constant velocity unless
+acted on by a net external force. Newton's second law states that force equals mass times
+acceleration.

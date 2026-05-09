@@ -1,0 +1,9 @@
+{"id":"inflation-definition","file":"fixtures/inflation_causes_uk.txt","question":"що таке інфляція","must_include":["depreciation of money","rising prices"]}
+{"id":"inflation-external-causes","file":"fixtures/inflation_causes_uk.txt","question":"назви зовнішні причини виникнення інфляції","must_include":["global structural crises","illegal export","foreign trade","balance of payments"]}
+{"id":"inflation-internal-monetary","file":"fixtures/inflation_causes_uk.txt","question":"які внутрішні грошові причини інфляції","must_include":["budget deficit","public debt","money emission","money circulation"]}
+{"id":"psychology-definition","file":"fixtures/psychological_knowledge_uk.txt","question":"що таке психологічні знання","must_include":["how people think","feel","interact"]}
+{"id":"psychology-crisis-use","file":"fixtures/psychological_knowledge_uk.txt","question":"як психологія допомагає під час кризи","must_include":["anxiety","support others","emotional stability"]}
+{"id":"english-vocabulary","file":"fixtures/english_unit_vocab.txt","question":"які слова треба вивчити з цього файлу","must_include":["election","protest","application","heatwave"]}
+{"id":"physics-acceleration","file":"fixtures/physics_motion_en.txt","question":"what is acceleration","must_include":["rate of change of velocity","speeds up","direction"]}
+{"id":"receipt-total","file":"fixtures/receipt_groceries_en.txt","question":"what is the total amount and what categories are there","must_include":["488 UAH","groceries","service fee"]}
+{"id":"product-projects","file":"fixtures/product_requirements_en.txt","question":"what is a project in this product","must_include":["saved workspace","files","indexed chunks","conversation context"]}

@@ -1,0 +1,12 @@
+Project: AI File Companion
+
+The product should let users upload files, ask questions about them, and keep different
+projects separate. A project is a saved workspace that contains files, indexed chunks, and
+conversation context.
+
+The command list should stay small because too many commands overload users. The main
+commands are start, help, new project, projects, clear, and export.
+
+Exports should include useful learning formats such as Markdown summaries, Anki cards,
+vocabulary lists, and quiz questions. The product should remain useful outside university
+study, including personal documents and receipts.

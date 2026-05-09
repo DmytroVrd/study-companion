@@ -1,0 +1,16 @@
+.env
+.venv/
+.idea/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.chroma/
+.chroma_eval/
+study_companion.db
+*.db-shm
+*.db-wal
+*.pyc
+*.egg-info/
+dist/
+build/

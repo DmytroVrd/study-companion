@@ -1,0 +1,17 @@
+Receipt: Local Market
+
+Date: 2026-05-08
+
+Items:
+- Bread: 42 UAH
+- Milk: 58 UAH
+- Eggs: 92 UAH
+- Apples: 76 UAH
+- Coffee: 185 UAH
+- Delivery fee: 35 UAH
+
+Total: 488 UAH
+
+Categories:
+- groceries: bread, milk, eggs, apples, coffee
+- service fee: delivery fee
