@@ -362,13 +362,7 @@ Telegram bot. User stats are not exposed publicly because they contain per-user 
 
 ## Screenshots And Demo GIF
 
-Place screenshots and demo GIFs in:
-
-```text
-docs/screenshots/
-```
-
-Current screenshots:
+Screenshots are stored in `docs/screenshots/` and show the main Telegram flows:
 
 - `start.png` - first-run bot message.
 - `file-and-answer.png` - file upload, chunking, grounded answer, and sources.
@@ -377,27 +371,9 @@ Current screenshots:
 - `export.png` - export format menu.
 - `help.png` - command-light usage guide.
 
-Still useful to add:
-
-- `voice-question.png` - voice transcription and answer.
-- `ocr-diagram.png` - OCR-backed answer from a diagram or table.
-- `export-result.png` - actual Word/Anki file sent by the bot.
-
-Recommended GIF:
-
-```text
-docs/screenshots/demo.gif
-```
-
-Suggested GIF flow:
-
-```text
-Upload AI notes -> ask a RAG question -> ask a voice follow-up -> export Anki/Word
-```
-
 ## Project Status
 
-Working:
+Implemented:
 
 - Docker Compose stack
 - Telegram polling bot
@@ -412,14 +388,6 @@ Working:
 - Word/Markdown/Anki/vocabulary/quiz exports
 - FastAPI health endpoint
 - Tests and retrieval evals
-
-Needs polish:
-
-- Better Telegram UX around project naming and switching.
-- Demo GIF and a few more screenshots for voice, OCR, and exported files.
-- More eval files from real-world examples.
-- More robust table reconstruction for complex OCR diagrams.
-- Optional per-user language preference.
 
 ## Engineering Highlights
 
@@ -437,11 +405,11 @@ The project is built around real file-based learning workflows, not a scripted d
 - Docker Compose setup for bot, API, database, Redis, and migrations.
 - Retrieval evals and tests that check behavior across study notes, receipts, English vocabulary, physics, and product docs.
 
-## Roadmap
+## Future Enhancements
 
-- Add a short demo GIF.
-- Polish `/projects` so saved projects feel like a first-class feature.
-- Improve OCR table reconstruction while preserving the current working OCR behavior.
+- Add a short product demo GIF.
+- Expand project workspace controls for larger personal knowledge bases.
+- Improve structured extraction from dense OCR tables and diagrams.
 - Add more eval fixtures for language learning, finance, receipts, and AI engineering notes.
-- Add optional language settings per user.
+- Add optional per-user language settings.
 - Add deployment notes for a small VPS.
