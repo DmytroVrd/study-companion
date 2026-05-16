@@ -421,26 +421,21 @@ Needs polish:
 - More robust table reconstruction for complex OCR diagrams.
 - Optional per-user language preference.
 
-## Portfolio Angle
+## Engineering Highlights
 
-This project demonstrates practical AI engineering beyond a simple chatbot:
+The project is built around real file-based learning workflows, not a scripted demo:
 
-- RAG over real user files.
-- OCR-aware ingestion for diagrams and image-heavy documents.
-- Multi-provider fallback for free-tier reliability.
-- Voice-to-RAG flow through Telegram.
-- Source attribution and retrieval evals.
-- Async Python bot architecture.
-- PostgreSQL persistence and migrations.
-- Redis rate limiting.
-- Dockerized development stack.
-- Export generation for user-facing outputs.
-
-Possible CV line:
-
-> Built an AI file companion Telegram bot with multi-format RAG, OCR for embedded diagrams,
-> ChromaDB retrieval, Groq/OpenRouter/Gemini fallback, voice transcription, project workspaces,
-> Word/Anki exports, FastAPI, PostgreSQL, Redis, Docker, and retrieval evals.
+- Multi-format RAG over PDFs, Word documents, PowerPoint decks, and text files.
+- OCR-aware ingestion for diagrams, screenshots, and image-heavy study materials.
+- ChromaDB retrieval with lightweight hybrid reranking and source attribution.
+- Multi-provider LLM fallback through Groq, OpenRouter, and Gemini for better reliability.
+- Voice-to-RAG flow in Telegram using Groq Whisper transcription.
+- Project workspaces so users can separate different files, courses, or topics.
+- Export generation for Word documents, Markdown summaries, Anki cards, vocabulary lists, and quizzes.
+- PostgreSQL persistence with Alembic migrations.
+- Redis-backed upload rate limiting.
+- Docker Compose setup for bot, API, database, Redis, and migrations.
+- Retrieval evals and tests that check behavior across study notes, receipts, English vocabulary, physics, and product docs.
 
 ## Roadmap
 
