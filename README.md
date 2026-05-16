@@ -27,9 +27,13 @@ use projects/exports only when needed.
 | --- | --- |
 | ![File upload and grounded answer](docs/screenshots/file-and-answer.png) | ![Export options](docs/screenshots/export.png) |
 
-| Project workflow | First-run help |
+| Voice question | Project workflow |
 | --- | --- |
-| ![Project switcher](docs/screenshots/projects.png) | ![Start message](docs/screenshots/start.png) |
+| ![Voice question and grounded answer](docs/screenshots/voice.png) | ![Project switcher](docs/screenshots/projects.png) |
+
+| First-run help |
+| --- |
+| ![Start message](docs/screenshots/start.png) |
 
 ### 1. Technical RAG Notes
 
@@ -368,6 +372,7 @@ Screenshots are stored in `docs/screenshots/` and show the main Telegram flows:
 - `file-and-answer.png` - file upload, chunking, grounded answer, and sources.
 - `new.png` - fresh project flow.
 - `projects.png` - saved project switcher.
+- `voice.png` - voice transcription and grounded answer.
 - `export.png` - export format menu.
 - `help.png` - command-light usage guide.
 
